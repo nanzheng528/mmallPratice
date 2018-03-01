@@ -248,9 +248,9 @@
     <defaultGoal>compile</defaultGoal>
 
     <finalName>mmall</finalName>
-    <pluginManagement>
+
       <plugins>
-        <plugin>
+        <!--<plugin>
           <groupId>org.apache.tomcat.maven</groupId>
           <artifactId>tomcat7-maven-plugin</artifactId>
           <version>2.2</version>
@@ -258,7 +258,7 @@
             <port>8080</port>
             <path>/test</path>
           </configuration>
-        </plugin>
+        </plugin>-->
 
         <plugin>
           <groupId>org.mybatis.generator</groupId>
@@ -284,6 +284,5 @@
           </configuration>
         </plugin>
       </plugins>
-    </pluginManagement>
   </build>
 </project>
